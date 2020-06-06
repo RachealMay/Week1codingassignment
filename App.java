@@ -26,7 +26,7 @@ String firstNameb ="Joanne";
 String lastNameb = "Michaels";
 char middleInitialb = 'B';
 double moneyLeftb = itemPriceb - moneyInwalletB;
-int friendsPeryearB = numberOffriendsB / ageB;
+int friendsPeryearB = numberOffriendsB / ageB +1 ;
 String fullNameb = firstNameb + " " + middleInitialb + " " + lastNameb;
 System.out.println(" ");
 System.out.println("Hello, my name is " + fullNameb + ".");
